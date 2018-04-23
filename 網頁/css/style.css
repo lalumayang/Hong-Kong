@@ -1,4 +1,7 @@
 
+*{
+    margin:0;
+}
 #top{
     background-image:url(../img/high_top.png);
     background-repeat: no-repeat;
@@ -8,9 +11,20 @@
     height: 400px;
     left:0;
 }
-
+#logo{
+    float: left;
+    margin-top: 20px;
+    margin-left:30px;  
+}
+header ul{
+    position: relative;
+    float: right;
+    right:40px;
+    top:0px;
+}
 header ul li {
     display: inline-block;
+    
 }
 header ul li a{
     position: relative;
@@ -18,10 +32,10 @@ header ul li a{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     text-decoration: none;
-    top:15px;
+    top:32px;
 }
 #home{
-    margin: 50px 0px 0px 910px;
+    margin: 50px 0px 0px 700px;
 }
 #eat{
     margin: 50px 0px 0px 20px;
@@ -36,11 +50,12 @@ header ul li a{
     margin: 50px 0px 0px 20px;
    
 }
-.icons p{
+#top p{
     font-family: 'Squada One', cursive;
     font-size: 80px;
     color:rgba(218, 216, 216, 0.623);
-    top:195px;
+    top:300px;
+    left:-210px;
     position: relative;
 }
 
@@ -56,15 +71,14 @@ header ul li a{
     max-height: 1140px;
     padding: 70px 0;
 }
-
 .info_1,.info_2,.info_3{
     margin: 0 214px 65px 214px;
     border: 1px solid rgba(255, 255, 255,0);
 }
-.info_1_picture,.info_2_picture,.info_3_picture{
+.info_1_picture,.info_3_picture{
     float: left;
 }
-.info_1_context,.info_2_context,.info_3_context{
+.info_1_context,.info_3_context{
     position: relative;
     border: 3px dotted rgb(227,231,222);
     border-radius: 20px;
@@ -74,11 +88,29 @@ header ul li a{
     height:215px;
     max-height: 248px;
 }
+.info_2_picture{
+    position: absolute;
+    right:214px;
+    top:475px;
+}
+.info_2_context{
+    position: relative;
+    border: 3px dotted rgb(227,231,222);
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.22);
+    margin: 37px 442px 37px 0px;
+    padding:20px 50px;
+    height:215px;
+    max-height: 248px;
+
+}
 .info_1 h2,.info_2 h2,.info_3 h2{
+    padding-top:5px; 
     font-size: 16px;
     font-family: Arial;
 }
 .info_1 p,.info_2 p,.info_3 p{
+    padding-top:10px; 
     font-size: 14px;
     font-family: Arial;
     text-align: justify;
@@ -99,8 +131,15 @@ header ul li a{
 /*.info_3 a:hover{
     color: indianred;
 }*/
+
+
+
+
+
 .footer{
     height: 180px;
+    background: #222222;
+    color: #e6dfdf;
 }
 .footer h3{
     font-family:"Arial";
@@ -115,7 +154,7 @@ header ul li a{
     font-family:"Arial";
     font-size: 14px;
     text-align: left;
-    line-height: 5px;
+    line-height: 25px;
 }
 .left_text{
     margin-top:0px; 
@@ -132,7 +171,8 @@ header ul li a{
     font-family:Arial;
     font-size: 12px;
     text-align: center;
-    color: #222222;
+    color: #afaaaa;
     height:20px;
     padding:10px 0 20px 0; 
+    background: #222222;
 }
