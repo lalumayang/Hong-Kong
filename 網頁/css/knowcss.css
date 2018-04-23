@@ -3,7 +3,7 @@
     margin:0;
 }
 #banner {
-    background: url(../img/high_top1.png);
+    background: url(../img/know_top.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26,6 +26,7 @@ header {
     top: 20px;
     left: 40px;
     right: 30px;
+    /*background: rgb(243, 204, 255);*/
 }
 
 header ul {
