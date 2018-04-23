@@ -1,0 +1,138 @@
+
+#top{
+    background-image:url(../img/high_top.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+    left:0;
+}
+
+header ul li {
+    display: inline-block;
+}
+header ul li a{
+    position: relative;
+    color: rgb(65, 62, 62);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    top:15px;
+}
+#home{
+    margin: 50px 0px 0px 910px;
+}
+#eat{
+    margin: 50px 0px 0px 20px;
+}
+#place{
+    margin: 50px 0px 0px 20px;
+}
+#shop{
+    margin: 50px 0px 0px 20px;
+}
+#travel{
+    margin: 50px 0px 0px 20px;
+   
+}
+.icons p{
+    font-family: 'Squada One', cursive;
+    font-size: 80px;
+    color:rgba(218, 216, 216, 0.623);
+    top:195px;
+    position: relative;
+}
+
+.middle_info p{
+    position: relative;
+    margin: 100px 214px;
+    font-family: Arial;
+}
+.main{
+    background-color: rgb(232, 236, 225);
+    position: relative;
+    width: auto;
+    max-height: 1140px;
+    padding: 70px 0;
+}
+
+.info_1,.info_2,.info_3{
+    margin: 0 214px 65px 214px;
+    border: 1px solid rgba(255, 255, 255,0);
+}
+.info_1_picture,.info_2_picture,.info_3_picture{
+    float: left;
+}
+.info_1_context,.info_2_context,.info_3_context{
+    position: relative;
+    border: 3px dotted rgb(227,231,222);
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.22);
+    margin: 37px 0px 37px 442px;
+    padding:20px 50px;
+    height:215px;
+    max-height: 248px;
+}
+.info_1 h2,.info_2 h2,.info_3 h2{
+    font-size: 16px;
+    font-family: Arial;
+}
+.info_1 p,.info_2 p,.info_3 p{
+    font-size: 14px;
+    font-family: Arial;
+    text-align: justify;
+    text-justify:inter-ideograph;
+}
+.info_1 h3,.info_2 h3,.info_3 h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#889e39;
+    border:1px solid #a8c443;
+    border-radius: 5px;
+    margin-left:173px;
+    margin-top:10px; 
+    padding: 7px;
+}
+.info_1 a,.info_2 a,.info_3 a{
+    text-decoration: none;
+}
+/*.info_3 a:hover{
+    color: indianred;
+}*/
+.footer{
+    height: 180px;
+}
+.footer h3{
+    font-family:"Arial";
+    font-size: 16px;
+    text-align: left;  
+    padding-top:40px; 
+}
+.left h3,.right h3{
+    height:50px;   
+}
+.left p{
+    font-family:"Arial";
+    font-size: 14px;
+    text-align: left;
+    line-height: 5px;
+}
+.left_text{
+    margin-top:0px; 
+}
+.left{
+    float: left;
+    margin-right: 285px;
+    margin-left: 245px;
+}
+.right{
+    float: left;
+}
+.bottom{
+    font-family:Arial;
+    font-size: 12px;
+    text-align: center;
+    color: #222222;
+    height:20px;
+    padding:10px 0 20px 0; 
+}
