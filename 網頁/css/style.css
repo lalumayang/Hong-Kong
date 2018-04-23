@@ -2,65 +2,62 @@
 *{
     margin:0;
 }
-#top{
-    background-image:url(../img/high_top.png);
+#banner {
+    background: url(../img/high_top1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-height: 100px;
+    padding: 12em 0 29em;
+    position: relative;
+    left: 0;
+    top: 0px;
     overflow: hidden;
-    height: 400px;
-    left:0;
+    color: aliceblue;
+    font-family: 'Didact Gothic', sans-serif;
 }
-#logo{
+.logo {
+    position: relative;
     float: left;
-    margin-top: 20px;
-    margin-left:30px;  
 }
-header ul{
+header {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    left: 40px;
+    right: 30px;
+}
+
+header ul {
     position: relative;
     float: right;
-    right:40px;
-    top:0px;
 }
+
 header ul li {
     display: inline-block;
-    
 }
-header ul li a{
-    position: relative;
-    color: rgb(65, 62, 62);
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 16px;
+
+header ul li a {
+    color: #CCEEFF;
+    font-size: 10pt;
     text-decoration: none;
-    top:32px;
+    margin: 0 20px 0 0;
+    font-family: 'News Cycle', sans-serif;
+    letter-spacing: 3px;
 }
-#home{
-    margin: 50px 0px 0px 700px;
-}
-#eat{
-    margin: 50px 0px 0px 20px;
-}
-#place{
-    margin: 50px 0px 0px 20px;
-}
-#shop{
-    margin: 50px 0px 0px 20px;
-}
-#travel{
-    margin: 50px 0px 0px 20px;
-   
-}
-#top p{
+#banner p{
     font-family: 'Squada One', cursive;
     font-size: 80px;
     color:rgba(218, 216, 216, 0.623);
-    top:300px;
-    left:-210px;
+    top:550px;
+    left:-170px;
     position: relative;
 }
-
+article{
+    background: rgba(214, 196, 226, 0.801);
+    border: 1px solid rgba(0,0,0,0);
+}
 .middle_info p{
-    position: relative;
     margin: 100px 214px;
     font-family: Arial;
 }
