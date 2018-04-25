@@ -3,8 +3,8 @@
 }
 
 #banner {
-    background: url(../img/high_top1.png);
-    background-repeat: no-repeat;
+    background: url(../img/place_top.png);
+    
     background-position: center;
     background-size: cover;
     max-height: 100px;
@@ -107,87 +107,140 @@ article {
     padding: 70px 0;
 }
 
-.info_1,
-.info_2,
-.info_3 {
-    margin: 0 214px 65px 214px;
-    border: 1px solid rgba(255, 255, 255, 0);
+
+.place1,.place2,.place3{
+    margin:0 180px; 
 }
-
-.info_1_picture,
-.info_3_picture {
-    float: left;
+.place1 h1{
+    border-right:2px solid rgb(145, 27, 27);
+    border-bottom:2px solid rgb(145, 27, 27);
 }
-
-.info_1_context,
-.info_3_context {
-    position: relative;
-    border: 3px dotted rgb(227, 231, 222);
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.22);
-    margin: 37px 0px 37px 442px;
-    padding: 20px 50px;
-    height: 215px;
-    max-height: 248px;
+.place2 h1{
+    border-right:2px solid rgb(50, 97, 151);
+    border-bottom:2px solid rgb(50, 97, 151);
 }
-
-.info_2_picture {
-    position: absolute;
-    right: 214px;
-    top: 475px;
+.place3 h1{
+    border-right:2px solid rgb(230, 233, 40);
+    border-bottom:2px solid rgb(230, 233, 40);
 }
-
-.info_2_context {
-    position: relative;
-    border: 3px dotted rgb(227, 231, 222);
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.22);
-    margin: 37px 442px 37px 0px;
-    padding: 20px 50px;
-    height: 215px;
-    max-height: 248px;
-
-}
-
-.info_1 h2,
-.info_2 h2,
-.info_3 h2 {
-    padding-top: 5px;
-    font-size: 16px;
+.main h1{
+    font-size: 18px;
     font-family: Arial;
 }
-
-.info_1 p,
-.info_2 p,
-.info_3 p {
-    padding-top: 10px;
+.main h2{
     font-size: 14px;
     font-family: Arial;
-    text-align: justify;
-    text-justify: inter-ideograph;
+    font-weight: 1;
+}
+.east1{
+    background: url(../img/east1.png);
+    float: left;
+}
+.east2{
+    background: url(../img/east2.jpg);
+    float: left;
+}
+.east3{
+    background: url(../img/east3.jpg);
+    float: left;
+}
+.east4{
+    background: url(../img/east4.jpg);
+    float: left;
+}
+.east1,.east2,.east3,.east4{
+    margin:0 5.6px; 
+    height:320px;
+    width: 250px;  
+}
+.place1 h3,.place2 h3,.place3 h3{
+    font-size: 15px;
+    font-family: Arial;
+    color: rgb(253, 185, 197);
+    margin-top:190px; 
+    padding:10px 0 15px 15px;
+   /* background: rgba(0, 0, 0, 0.123);*/
+}
+.place1 p,.place2 p,.place3 p{
+    font-size: 13px;
+    font-family: Arial;
+    color: rgb(221, 221, 220);
+    padding:0 30px 10px 15px;
+   /* background: rgba(0, 0, 0, 0.123);*/
+}
+.br320{
+    height:380px;
+}
+.east1:hover,
+.east2:hover,
+.east3:hover,
+.east4:hover,
+.out1:hover,
+.out2:hover,
+.out3:hover,
+.out4:hover,
+.theme1:hover,
+.theme2:hover,
+.theme3:hover,
+.theme4:hover{
+   /* -webkit-filter: opacity(.8);*/
+    filter:brightness(0.8);
+    
 }
 
-.info_1 h3,
-.info_2 h3,
-.info_3 h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #889e39;
-    border: 1px solid #a8c443;
-    border-radius: 5px;
-    margin-left: 173px;
-    margin-top: 10px;
-    padding: 7px;
+
+.out1{
+    background: url(../img/out1.jpg);
+    float: left;
+}
+.out2{
+    background: url(../img/out2.jpg);
+    float: left;
+}
+.out3{
+    background: url(../img/out3.jpg);
+    float: left;
+}
+.out4{
+    background: url(../img/out4.jpg);
+    float: left;
+}
+.out1,.out2,.out3,.out4{
+    margin:0 5.6px; 
+    height:320px;
+    width: 250px;  
 }
 
-.info_1 a,
-.info_2 a,
-.info_3 a {
-    text-decoration: none;
+.theme1{
+    background: url(../img/theme1.png);
+    float: left;
+}
+.theme2{
+    background: url(../img/theme2.jpg);
+    float: left;
+}
+.theme3{
+    background: url(../img/theme3.jpg);
+    float: left;
+}
+.theme4{
+    background: url(../img/theme4.jpg);
+    float: left;
+}
+.theme1,.theme2,.theme3,.theme4{
+    margin:0 5.6px; 
+    height:320px;
+    width: 250px;  
 }
 
-/*.info_3 a:hover{
-    color: indianred;
-}*/
+.br300{
+    height:340px;
+    background: rgb(223, 214, 207);
+}
+
+
+
+
 
 .footer {
     height: 180px;
