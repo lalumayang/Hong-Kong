@@ -20,6 +20,103 @@ a {
 
 }
 
+/* ======================= */
+
+/* 下拉選單區塊  */
+
+/* ======================= */
+
+.select_menu {
+    margin: 0;
+    padding: 0px;
+
+}
+
+.select_menu ul li {
+
+    display: block;
+    float: left;
+    position: relative;
+}
+
+/* ======================= */
+
+/* 下拉選單的高度 */
+
+/* ======================= */
+
+#know_select ul li ul {
+    right: 0px;
+}
+
+.select_menu ul li ul {
+    margin: -4px 0 0;
+    display: none;
+    position: absolute;
+    width: 150px;
+    z-index: 350;
+    height: auto;
+    overflow: auto;
+    top: 50px;
+}
+
+.select_menu ul li ul li {
+    background: rgb(255, 255, 255, .6);
+}
+
+.select_menu ul li ul li a {
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 29px;
+    color: #555;
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+/* ======================= */
+
+/* 當選到時 */
+
+/* ======================= */
+
+#know_select .option_selected {
+    width: 76px;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+.option_selected {
+    color: rgb(200, 200, 200);
+    display: block;
+    font-size: 12pt;
+    line-height: 29px;
+    position: relative;
+    top: 9px;
+    width: 38px;
+    z-index: 400;
+}
+
+.option_list li {
+    float: none;
+    width: 100%;
+}
+
+/* ======================= */
+
+/* 滑入選項變色*/
+
+/* ======================= */
+
+.hovered_item {
+    border-left: 3px solid red;
+    background: rgba(223, 214, 207, .8);
+    font-weight: bold;
+    color: #333;
+}
+
 #banner {
     background: url(../img/banner.png);
     background-repeat: no-repeat;
@@ -36,33 +133,25 @@ a {
 
 }
 
-#banner h2 {
-    color: #ffffff;
-    font-size: 130pt;
-    line-height: 1em;
-    letter-spacing: 15px;
+#banner #h2 {
     position: relative;
-    margin: auto;
     top: 80px;
-    opacity: .6;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-weight: 1000;
-
+    left: 460px;
 }
 
 #banner p {
     position: relative;
     text-align: center;
     margin: auto;
-    top: 100px;
+    top: 70px;
     font-size: 36pt;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
     opacity: .6;
 }
 
 #logo {
     position: relative;
+    top: 10px;
     float: left;
 }
 
@@ -76,6 +165,8 @@ header {
 
 header ul {
     position: relative;
+
+    width: auto;
     float: right;
 }
 
@@ -84,41 +175,41 @@ header ul li {
 }
 
 header ul li a {
-    color: #CCEEFF;
-    font-size: 10pt;
+    color: rgb(200, 200, 200);
+    font-size: 12pt;
     text-decoration: none;
     margin: 0 20px 0 0;
-    font-family: 'News Cycle', sans-serif;
     letter-spacing: 3px;
+
 }
 
 #know {
     margin: 0;
 }
 
+#home {
+    line-height: 29px;
+}
+
 #home:hover {
-    color: #66b3ff;
-    border-bottom: 5px #0072e3 solid;
+    color: rgb(200, 176, 161);
+
 }
 
 #food:hover {
-    color: #ff7575;
-    border-bottom: 5px #ff2d2d solid;
+    color: rgb(200, 176, 161);
 }
 
 #place:hover {
-    color: #ffdc35;
-    border-bottom: 5px #ffd306 solid;
+    color: rgb(200, 176, 161);
 }
 
 #shop:hover {
-    color: #70AD47;
-    border-bottom: 5px #70AD47 solid;
+    color: rgb(200, 176, 161);
 }
 
 #know:hover {
-    color: #D2B48C;
-    border-bottom: 5px #8A6D58 solid;
+    color: rgb(200, 176, 161);
 }
 
 
@@ -210,7 +301,7 @@ header ul li a {
 
 }
 
-#foodbtn a :hover {
+#foodbtn a img:hover {
     -webkit-filter: opacity(.8);
 }
 
@@ -234,11 +325,11 @@ header ul li a {
 }
 
 #placebtn a :hover .title {
-    background-color: #ffd306;
+    background-color: rgb(240, 200, 50);
     color: white;
 }
 
-#placebtn a :hover {
+#placebtn a img:hover {
     -webkit-filter: opacity(.8);
 }
 
@@ -249,7 +340,7 @@ header ul li a {
 }
 
 #placebtn .title {
-    border-left: 5px #ffd306 solid;
+    border-left: 5px rgb(240, 200, 50) solid;
 }
 
 #shopbtn a :hover .title {
@@ -257,7 +348,7 @@ header ul li a {
     color: white;
 }
 
-#shopbtn a :hover {
+#shopbtn a img:hover {
     -webkit-filter: opacity(.8);
 }
 
@@ -271,7 +362,7 @@ header ul li a {
     border-left: 5px #70AD47 solid;
 }
 
-#knowbtn a :hover {
+#knowbtn a img:hover {
     -webkit-filter: opacity(.8);
 }
 
@@ -308,7 +399,6 @@ header ul li a {
 }
 
 .left p {
-    font-family: "Arial";
     font-size: 14px;
     text-align: left;
     line-height: 25px;
@@ -320,8 +410,8 @@ header ul li a {
 
 .left {
     float: left;
-    margin-right: 285px;
-    margin-left: 245px;
+    margin-right: 300px;
+    margin-left: 350px;
 }
 
 .right {
@@ -329,11 +419,14 @@ header ul li a {
 }
 
 .bottom {
-    font-family: Arial;
     font-size: 12px;
     text-align: center;
     color: #afaaaa;
     height: 20px;
     padding: 10px 0 20px 0;
     background: #222222;
+}
+
+footer img {
+    margin-right: 20px;
 }

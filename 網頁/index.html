@@ -6,6 +6,8 @@
     <title>Hong Kong</title>
     <link rel="stylesheet" href="css/indexcss.css" />
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|News+Cycle|Poiret+One" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
@@ -17,20 +19,46 @@
                 </div>
                 <ul>
                     <li><a id="home" href="index.html">首頁</a></li>
-                    <li><a id="food" href="food.html">吃喝</a></li>
+                    <li>
+                        <div class="select_menu">
+                            <ul>
+                                <li class="option_list">
+                                    <a class="option_selected" id="food" href="food.html">吃喝</a>
+                                    <ul>
+                                        <li><a href="food_inside.html">美食</a> </li>
+                                        <li><a href=hotspot.html>熱點</a> </li>
+                                        <li><a href="award.html">盛事及獎項</a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a id="place" href="place.html">景點</a></li>
                     <li><a id="shop" href="shop.html">購物</a></li>
-                    <li><a id="know" href="know.html">旅遊須知</a></li>
+                    <li>
+                        <div class="select_menu" id="know_select">
+                            <ul>
+                                <li class="option_list">
+                                    <a class="option_selected" id="food" href="know.html">旅遊須知</a>
+                                    <ul>
+                                        <li><a href="#">實用資訊</a> </li>
+                                        <li><a href="#">旅遊工具</a> </li>
+                                        <li><a href="#">旅客諮詢服務</a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </header>
-        <h2>香港</h2>
+        <img id=h2 src="img/title.png">
         <p>Hong Kong</p>
     </section>
     <div id="mid">
-        <h1>關於我們</h1>
+        <h1>關於香港</h1>
         <ul id="about us">
-            <li id="mail"><a href="https://mail.google.com/"><img src="img/mail.png"><p>電子信箱</p></a>
+            <li id="mail"><a href="https://mail.google.com/"><img src="img/mail.png"><p>電子報</p></a>
 
             </li>
             <li id="fb"><a href="https://www.facebook.com/"><img src="img/fb.png"><p>Facebook</p></a>

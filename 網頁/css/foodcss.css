@@ -1,11 +1,113 @@
 * {
     margin: 0;
+    padding: 0;
 
 }
 
 h2,
 p {
     font-family: "微軟正黑體";
+}
+
+/* ======================= */
+
+/* 下拉選單區塊  */
+
+/* ======================= */
+
+.select_menu {
+    margin: 0;
+    padding: 0px;
+
+}
+
+.select_menu ul li {
+
+    display: block;
+    float: left;
+    position: relative;
+}
+
+/* ======================= */
+
+/* 下拉選單的高度 */
+
+/* ======================= */
+
+#know_select ul li ul {
+    right: 0px;
+}
+
+.select_menu ul li ul {
+    margin: -4px 0 0;
+    display: none;
+    position: absolute;
+    width: 150px;
+    z-index: 350;
+    height: auto;
+    overflow: auto;
+    top: 80px;
+
+}
+
+.select_menu ul li ul li {
+    background: rgb(255, 255, 255, .6);
+}
+
+.select_menu ul li ul li a {
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 29px;
+    color: #555;
+    margin: 0;
+    padding-left: 20px;
+
+
+
+}
+
+
+/* ======================= */
+
+/* 當選到時 */
+
+/* ======================= */
+
+#know_select .option_selected {
+    width: 76px;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+.option_selected {
+    color: rgb(200, 200, 200);
+    display: block;
+    font-size: 12pt;
+    line-height: 29px;
+    position: relative;
+    top: 39px;
+    width: 38px;
+
+}
+
+.option_list li {
+    float: none;
+    width: 100%;
+}
+
+/* ======================= */
+
+/* 滑入選項變色*/
+
+/* ======================= */
+
+.hovered_item {
+    border-left: 3px solid red;
+    background: rgba(223, 214, 207, .8);
+    font-weight: bold;
+    color: #333;
 }
 
 #banner {
@@ -19,30 +121,45 @@ p {
     left: 0;
     top: 0px;
     overflow: hidden;
-    color: rgb(234, 230, 226);
-    font-family: "微軟正黑體";
+    color: aliceblue;
+    font-family: 'Didact Gothic', sans-serif;
+
 }
 
-.logo {
+#banner #h2 {
     position: relative;
+    top: 80px;
+    left: 460px;
+}
+
+#banner p {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 70px;
+    font-size: 36pt;
+    letter-spacing: 7px;
+    opacity: .6;
+}
+
+#logo {
+    position: relative;
+    top: 10px;
     float: left;
 }
 
+
 header {
     position: absolute;
-    left: 0;
     top: 20px;
     left: 40px;
-    right: 30px;
-
-    /*background: rgb(243, 204, 255);*/
-}
-header p{
-    font-size:50pt;
+    right: 40px;
 }
 
 header ul {
     position: relative;
+    top: -30px;
+    width: auto;
     float: right;
 }
 
@@ -51,61 +168,62 @@ header ul li {
 }
 
 header ul li a {
-    color: #CCEEFF;
+    color: rgb(200, 200, 200);
     font-size: 12pt;
     text-decoration: none;
     margin: 0 20px 0 0;
-    font-family: 'News Cycle', sans-serif;
     letter-spacing: 3px;
-    padding: 3px;
+
 }
 
+#know {
+    margin: 0;
+}
+
+
 #home:hover {
-    color: #66b3ff;
-    border-bottom: 5px #0072e3 solid;
+    color: rgb(200, 176, 161);
+
 }
 
 #food:hover {
-    color: #ff7575;
-    border-bottom: 5px #ff2d2d solid;
+    color: rgb(200, 176, 161);
 }
 
 #place:hover {
-    color: #ffdc35;
-    border-bottom: 5px #ffd306 solid;
+    color: rgb(200, 176, 161);
 }
 
 #shop:hover {
-    color: #70AD47;
-    border-bottom: 5px #70AD47 solid;
+    color: rgb(200, 176, 161);
 }
 
 #know:hover {
-    color: #D2B48C;
-    border-bottom: 5px #8A6D58 solid;
+    color: rgb(200, 176, 161);
 }
 
 #banner p {
     font-family: 'Squada One', cursive;
-    font-size: 80px;
+    font-size: 180px;
     color: rgba(218, 216, 216, 0.623);
-    top: 550px;
-    left: -170px;
+    top: 460px;
+    left: -380px;
     position: relative;
 }
 
 article {
     /*background: rgb(255, 87, 87);*/
+    background-color: rgb(223, 214, 207);
     border: 1px solid rgba(0, 0, 0, 0);
     /*background: rgb(43, 15, 15);*/
 }
 
 .middle_info p {
-    margin: 100px 214px;
+    margin: 100px 214px 30px 214px;
     font-size: 15pt;
     background: rgb(200, 50, 29);
-    padding: 15px;
-    color:rgb(245, 237, 237);
+    padding: 50px 80px 50px 80px;
+    color: rgb(245, 237, 237);
     box-shadow: 20px 20px rgb(92, 10, 10);
     text-align: justify;
     text-justify: inter-ideograph;
@@ -148,6 +266,7 @@ article {
     position: absolute;
     right: 214px;
     top: 475px;
+
 }
 
 .info_2_context {
@@ -233,8 +352,8 @@ article {
 
 .left {
     float: left;
-    margin-right: 285px;
-    margin-left: 245px;
+    margin-right: 300px;
+    margin-left: 350px;
 }
 
 .right {
@@ -242,11 +361,14 @@ article {
 }
 
 .bottom {
-    font-family: Arial;
     font-size: 12px;
     text-align: center;
     color: #afaaaa;
     height: 20px;
     padding: 10px 0 20px 0;
     background: #222222;
+}
+
+footer img {
+    margin-right: 20px;
 }

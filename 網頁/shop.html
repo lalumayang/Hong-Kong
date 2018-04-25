@@ -5,6 +5,8 @@
     <title>HONG KONG</title>
     <link href="https://fonts.googleapis.com/css?family=Squada+One|Roboto+Condensed|Josefin Sans" rel="stylesheet">
     <link href="css/shopcss.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
@@ -16,10 +18,36 @@
                 </div>
                 <ul>
                     <li><a id="home" href="index.html">首頁</a></li>
-                    <li><a id="food" href="food.html">吃喝</a></li>
+                    <li>
+                        <div class="select_menu">
+                            <ul>
+                                <li class="option_list">
+                                    <a class="option_selected" id="food" href="food.html">吃喝</a>
+                                    <ul>
+                                        <li><a href="food_inside.html">美食</a> </li>
+                                        <li><a href=hotspot.html>熱點</a> </li>
+                                        <li><a href="award.html">盛事及獎項</a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a id="place" href="place.html">景點</a></li>
                     <li><a id="shop" href="shop.html">購物</a></li>
-                    <li><a id="know" href="know.html">旅遊須知</a></li>
+                    <li>
+                        <div class="select_menu" id="know_select">
+                            <ul>
+                                <li class="option_list">
+                                    <a class="option_selected" id="food" href="know.html">旅遊須知</a>
+                                    <ul>
+                                        <li><a href="#">實用資訊</a> </li>
+                                        <li><a href="#">旅遊工具</a> </li>
+                                        <li><a href="#">旅客諮詢服務</a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </nav>
             <p>Shopping</p>
