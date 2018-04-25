@@ -85,15 +85,19 @@ header ul li a {
 }
 
 article {
-    background: rgb(175, 149, 129);
+   /* background: rgb(175, 149, 129);*/
     border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .middle_info p {
     margin: 100px 214px;
-    font-size: 16pt;
-    border-left: 5px solid rgb(148, 117, 94);
+    font-size: 15pt;
+    background: rgb(148, 117, 94);
     padding: 15px;
+    color:rgb(245, 237, 237);
+    box-shadow: 20px 20px rgb(97, 71, 52);
+    text-align: justify;
+    text-justify: inter-ideograph;
 }
 
 .main {
