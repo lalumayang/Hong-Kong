@@ -113,7 +113,7 @@ p {
 }
 
 #banner {
-    background: url(../img/place_top.png);
+    background: url(../img/place_top1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -262,12 +262,12 @@ article {
 
 .main h1 {
     font-size: 18px;
-    font-family: Arial;
+    
 }
 
 .main h2 {
     font-size: 14px;
-    font-family: Arial;
+    
     font-weight: 1;
 }
 
@@ -304,7 +304,7 @@ article {
 .place2 h3,
 .place3 h3 {
     font-size: 15px;
-    font-family: Arial;
+ 
     color: rgb(253, 185, 197);
     margin-top: 190px;
     padding: 10px 0 15px 15px;
@@ -315,7 +315,8 @@ article {
 .place2 p,
 .place3 p {
     font-size: 13px;
-    font-family: Arial;
+ 
+    
     color: rgb(221, 221, 220);
     padding: 0 30px 10px 15px;
     /* background: rgba(0, 0, 0, 0.123);*/
@@ -418,7 +419,8 @@ p :hover {
 }
 
 .footer h3 {
-    font-family: "Arial";
+    
+    
     font-size: 16px;
     text-align: left;
     padding-top: 40px;
@@ -430,7 +432,7 @@ p :hover {
 }
 
 .left p {
-    font-family: "Arial";
+    
     font-size: 14px;
     text-align: left;
     line-height: 25px;
